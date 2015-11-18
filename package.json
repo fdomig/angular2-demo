@@ -1,0 +1,17 @@
+{
+  "name": "angular2-demo",
+  "version": "0.0.1",
+  "repository": "https://github.com/fdomig/angular2-demo",
+  "description": "An example Angular2 app",
+  "scripts": {
+    "tsc": "tsc -p src -w",
+    "start": "lite-server --open src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Franziskus Domig <fdomig@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "angular2": "^2.0.0-alpha.46",
+    "systemjs": "^0.19.6"
+  }
+}

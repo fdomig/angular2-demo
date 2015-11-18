@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <base href="/src/"/>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="../node_modules/systemjs/dist/system.src.js"></script>
+  <script src="../node_modules/angular2/bundles/angular2.dev.js"></script>
+  <script src="../node_modules/angular2/bundles/router.dev.js"></script>
+  <script>
+    System.config({
+      packages: {'app': {defaultExtension: 'js'}}
+    });
+    System.import('app/boot').catch(console.log.bind(console));
+  </script>
+</head>
+
+<body>
+  <demo-app>
+    Loading application ...
+  </demo-app>
+</body>
+
+</html>
